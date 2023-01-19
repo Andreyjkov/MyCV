@@ -95,3 +95,21 @@ footer {
 .color2 {
   color: var(--color2);
 }
+
+/* для линии под заголовком */
+.underline_title {
+  margin: 15px auto 30px;
+}
+.underline_title:after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: var(--color1);
+  width: 150px;
+  margin: 10px auto 0;
+  transition: 0.5s; 
+}
+.underline_title:hover:after {
+  width: 200px;
+  transition: ease-out 0.5s;
+}
