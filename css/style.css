@@ -26,6 +26,10 @@ footer {
       );
   background-size: contain;
 }
+.leng-select {
+  background-color: var(--color1);
+  color: white;
+}
 
 .contacts,
 .experience {
@@ -113,3 +117,4 @@ footer {
   width: 200px;
   transition: ease-out 0.5s;
 }
+

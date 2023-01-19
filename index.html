@@ -14,15 +14,24 @@
 
   <header class="container-fluid">
     <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-end">
+          <select class="selectpicker rounded leng-select" data-style="btn-primary">
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+      </div>
       <div class="row align-items-center">
         <div class="col-xl-9 col-lg-12">
-          <h1 class="text-center text-white fst-italic">ANDREY KOVAL</h1>
-          <p class="text-center text-white fst-italic">Web Developer</p>
+          <h1 class="text-center text-white fst-italic lng-h1-title">ANDREY KOVAL</h1>
+          <p class="text-center text-white fst-italic lng-h1-subtitle">Web Developer</p>
         </div>
         <div class="col-xl-3 col-lg-12 text-center">
           <img src="img/photo.jpg" alt="myphoto" class="img-fluid myclass-img">
         </div>
       </div>
+    </div>
     </div>
   </header>
 
@@ -30,7 +39,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-center text-uppercase color1 mb-5">Контакты</h2>
+          <h2 class="text-center text-uppercase color1 mb-5 lng-contact">Контакты</h2>
         </div>
       </div>
       <div class="row">
@@ -43,8 +52,8 @@
         <div class="col-xl-4 col-md-6 col-sm-12">
           <div class="myclass_circle "><img src="img/icons/location.png" alt="location" class="icons"></div>
           <h5 class="text-center underline_title"><a target="_blank"
-              href="https://www.google.com/maps/place/%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE/@53.6840259,23.7107689,11z/data=!3m1!4b1!4m5!3m4!1s0x46dfd64beac55d1d:0xf013fd26569718c0!8m2!3d53.6687634!4d23.8222673">Grodno,
-              Belarus</a>
+              href="https://www.google.com/maps/place/%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE/@53.6840259,23.7107689,11z/data=!3m1!4b1!4m5!3m4!1s0x46dfd64beac55d1d:0xf013fd26569718c0!8m2!3d53.6687634!4d23.8222673">
+              <span class="lng-location">Grodno,Belarus</span> </a>
           </h5>
         </div>
         <div class="col-xl-4 col-md-6 col-sm-12">
@@ -86,12 +95,13 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-center text-uppercase color2 mb-5">Обо мне</h2>
+          <h2 class="text-center text-uppercase color2 mb-5 lng-about">Обо мне</h2>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col-12">
-          <p class="text-center fst-italic">Более десяти лет занимался ремонтом мобильных телефонов, ноутбуков и прочей
+          <p class="text-center fst-italic lng-about-text">Более десяти лет занимался ремонтом мобильных телефонов,
+            ноутбуков и прочей
             техники. <br>
             Мои личные качества: трудолюбие, терпение, надежность, дисциплинированность, честность, дружелюбие. <br>
             Я хочу работать в команде с профессионалами, чтобы улучшить свои навыки программирования и карьерный рост.
@@ -105,12 +115,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-center text-uppercase color1 mb-3">Опыт</h2>
+          <h2 class="text-center text-uppercase color1 mb-3 lng-exp">Опыт</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-12">
-          <h4 class="text-center fw-bold mb-3 mt-3">Навыки</h4>
+          <h4 class="text-center fw-bold mb-3 mt-3 lng-skills">Навыки</h4>
           <div class="accordion accordion-flush" id="accordion1">
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading1">
@@ -121,7 +131,7 @@
               </h2>
               <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
                 data-bs-parent="#accordion1">
-                <div class="accordion-body fst-italic">- Учебный проект <a
+                <div class="accordion-body fst-italic lng-htnl-css3">- Учебный проект <a
                     href="https://rolling-scopes-school.github.io/andreyjkov-JSFE2022Q1/shelter/pages/main/index.html"
                     target="_blank">Shelter</a>
                   - двух страничный сайт на HTML/CSS c адаптивном и интерактивом <br>
@@ -141,7 +151,7 @@
               </h2>
               <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
                 data-bs-parent="#accordion1">
-                <div class="accordion-body fst-italic">- Учебный проект <a
+                <div class="accordion-body fst-italic lng-javascript">- Учебный проект <a
                     href="https://andreyjkov.github.io/VirtualKeyboard/" target="_blank">Virtual keyboard</a> -
                   знакомство с Javascript <br>
                   - Учебный проект <a href="https://rolling-scopes-school.github.io/andreyjkov-JSFE2022Q1/online-store/"
@@ -149,7 +159,7 @@
                   - онлайн магазин (фильтрация, сортировка, поиск, добавление в корзину.) <br>
                   - Учебный проект в команде <a href="https://sergeymikhalkin.github.io/rslang/" target="_blank">Rs
                     lang</a> - приложение для изучения иностранных слов, включающее электронный учебник с базой слов для
-                  изучения, мини-игры для их повторения, страницу статистики для отслеживания индивидуального прогресса
+                  изучения, мини-игры для их повторения, страницу статистики для отслеживания индивидуального прогресса.
                 </div>
               </div>
             </div>
@@ -163,7 +173,7 @@
               </h2>
               <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
                 data-bs-parent="#accordion1">
-                <div class="accordion-body fst-italic">В учебных заданиях работал с TypeScript
+                <div class="accordion-body fst-italic lng-type-script">В учебных заданиях работал с TypeScript
                 </div>
               </div>
             </div>
@@ -177,7 +187,7 @@
               </h2>
               <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
                 data-bs-parent="#accordion1">
-                <div class="accordion-body fst-italic">- Учебный проект в команде <a
+                <div class="accordion-body fst-italic lng-react">- Учебный проект в команде <a
                     href="https://project-management-app-22.vercel.app/">Project
                     management</a> - это приложение, которое помогает команде или группе разработчиков достичь своих
                   целей.
@@ -195,7 +205,7 @@
               <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
                 data-bs-parent="#accordion1">
                 <div class="accordion-body fst-italic"><a href="https://project-management-app-22.vercel.app/">Project
-                    management</a> - хорошо разобрался в работе Redux-toolkit
+                    management</a> <span class="lng-redux">- хорошо разобрался в работе Redux-toolkit</span>
                 </div>
               </div>
             </div>
@@ -209,7 +219,8 @@
               </h2>
               <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
                 data-bs-parent="#accordion1">
-                <div class="accordion-body fst-italic">Работал - понимаю.
+                <div class="accordion-body fst-italic lng-git">На протяжении всего обучения в The Rolling Scopes я
+                  работал с Git.
                 </div>
               </div>
             </div>
@@ -223,7 +234,7 @@
               </h2>
               <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
                 data-bs-parent="#accordion1">
-                <div class="accordion-body fst-italic">Ознакомился при написании данной CV (понравилось :))
+                <div class="accordion-body fst-italic lng-bootstrap">Ознакомился при написании данной CV
                 </div>
               </div>
             </div>
@@ -232,7 +243,7 @@
         </div>
 
         <div class="col-md-4 col-sm-12">
-          <h4 class="text-center fw-bold mb-3 mt-3">Образование</h4>
+          <h4 class="text-center fw-bold mb-3 mt-3 lng-education">Образование</h4>
 
           <div class="accordion accordion-flush" id="accordion2">
             <div class="accordion-item">
@@ -245,9 +256,9 @@
               <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
                 data-bs-parent="#accordion2">
                 <div class="accordion-body fst-italic">
-                  Бесплатная образовательная программа для сообщества, проводимая сообществом разработчиков The Rolling
-                  Scopes.
-                  с 2013 года. <br>
+                  <span class=" lng-rss-app-school">Бесплатная образовательная программа для сообщества, проводимая
+                    сообществом разработчиков The
+                    Rolling Scopes. с 2013 года.</span> <br>
                   - <span class="fw-bold">JavaScript/Front-end 2022Q1 <a
                       href="https://app.rs.school/certificate/yh81fama" target="_blank"> Certificate</a></span> <br>
                   - <span class="fw-bold">React 2022Q3</span>
@@ -257,7 +268,7 @@
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading9">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed lng-work" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
                   Мастер по ремонту электроники
                 </button>
@@ -271,14 +282,14 @@
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading10">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed lng-english" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
                   Английский
                 </button>
               </h2>
               <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
                 data-bs-parent="#accordion2">
-                <div class="accordion-body fst-italic"> A1-A2 - Сейчас в активном обучении
+                <div class="accordion-body fst-italic lng-lvl-english"> A1-A2 - Сейчас в активном обучении
                 </div>
               </div>
             </div>
@@ -286,13 +297,14 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading11">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                  data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11 lng-college">
                   Колледж
                 </button>
               </h2>
               <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
                 data-bs-parent="#accordion2">
-                <div class="accordion-body fst-italic"> Гродненский государственный профессионально-технический колледж
+                <div class="accordion-body fst-italic lng-college-text"> Гродненский государственный
+                  профессионально-технический колледж
                   приборостроения.
                 </div>
               </div>
@@ -302,7 +314,7 @@
         </div>
 
         <div class="col-md-4 col-sm-12">
-          <h4 class="text-center fw-bold mb-3 mt-3">В процессе заполнения</h4>
+          <h4 class="text-center fw-bold mb-3 mt-3 lng-accordion-3">В процессе заполнения</h4>
 
           <div class="accordion accordion-flush" id="accordion3">
             <div class="accordion-item">
@@ -371,15 +383,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 text-center">
-          <h5>Andrey Koval - 2023</h5>
+        <div class="col-12 text-center text-light">
+          <h5> <span class="lng-my-name">Andrey Koval</span> - 2023</h5>
         </div>
       </div>
     </div>
 
   </footer>
 
-  <script src="bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/language.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 
 </html>
