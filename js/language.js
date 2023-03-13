@@ -126,8 +126,18 @@ const language = {
     en: "Grodno State Vocational College of Instrument Engineering. Speciality - Repair and maintenance of television radio equipment",
   },
   "accordion-3": {
-    ru: "В процессе заполнения",
-    en: "In the process of filling",
+    ru: "Пет-проекты",
+    en: "Pet projects",
+  },
+  "second-hand-parts": {
+    ru: "shp",
+    en: "shp",
+  },
+  "shp-text": {
+    ru: `В разработке <a href='https://second-hand-parts-870e7.web.app' target="_blank">Second Hand Parts</a> - сайт для поиска или продажи подержанных запчастей.<br>
+    - Код <a href="https://github.com/Andreyjkov/secondHandParts/tree/develop" target="_blank">Second Hand Parts</a>`,
+    en: `In developing <a href='https://second-hand-parts-870e7.web.app' target="_blank">Second Hand Parts</a> - site for finding or selling used parts. <br>
+    - Code <a href="https://github.com/Andreyjkov/secondHandParts/tree/develop" target="_blank">Second Hand Parts</a>`,
   },
   "my-name": {
     ru: "Андрей Коваль",
