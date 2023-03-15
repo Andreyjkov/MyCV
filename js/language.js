@@ -134,9 +134,9 @@ const language = {
     en: "shp",
   },
   "shp-text": {
-    ru: `В разработке <a href='https://second-hand-parts-870e7.web.app' target="_blank">Second Hand Parts</a> - сайт для поиска или продажи подержанных запчастей.<br>
+    ru: `В разработке <a href='https://second-hand-parts-870e7.web.app' target="_blank">Second Hand Parts</a> - сайт для поиска и продажи подержанных запчастей.<br>
     - Код <a href="https://github.com/Andreyjkov/secondHandParts/tree/develop" target="_blank">Second Hand Parts</a>`,
-    en: `In developing <a href='https://second-hand-parts-870e7.web.app' target="_blank">Second Hand Parts</a> - site for finding or selling used parts. <br>
+    en: `In developing <a href='https://second-hand-parts-870e7.web.app' target="_blank">Second Hand Parts</a> - site for finding and selling used parts. <br>
     - Code <a href="https://github.com/Andreyjkov/secondHandParts/tree/develop" target="_blank">Second Hand Parts</a>`,
   },
   "my-name": {
